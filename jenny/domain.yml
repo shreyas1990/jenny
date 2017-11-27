@@ -1,0 +1,22 @@
+intents:
+  - greet
+  - goodbye
+
+
+templates:
+ utter_greet:
+  - "Hi!, How are you?"
+  - "Hello!"
+  - "Hey!"
+ utter_goodbye:
+  - "good bye!"
+  - "Bye"
+  - "Cya!"
+ utter_default:
+  - "Hi, I am Jenny!"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+
+
