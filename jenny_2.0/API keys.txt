@@ -1,0 +1,13 @@
+twilio
+secret: LYFAEVxtnrq4MwIo2UdoRM7UQA1JUVYh
+SID : SK69084a22ed7693d384ade777c4a92974
+account SID: AC47591910f555d88fb94243901fc9d3b0
+auth token: c9d3b24654e4e749a9ca9003fe75adae
+
+slack
+ID: 288664342642.288665020946
+secret: 83770f3c8c70e8f6fab485c3d161d81f
+token: tsqDn0aVv24lxvEBbR7iZ1qh
+
+jenny
+token: xoxb-289912928354-OY4JXZ6ULHIA8z3AeqMiexPk

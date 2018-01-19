@@ -1,0 +1,62 @@
+[
+  {
+    "id": "7ab908cd-c41c-4d96-82e1-6ec557216107",
+    "data": [
+      {
+        "text": "Unable to open skype",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508997365
+  },
+  {
+    "id": "b5b42b64-02d3-4897-9f90-079a4ccb5598",
+    "data": [
+      {
+        "text": "I am unable to load skype",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508997365
+  },
+  {
+    "id": "92643a96-4c02-489b-b5ba-772532db32af",
+    "data": [
+      {
+        "text": "skype is not working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b38d8589-47c1-48ae-a302-097dc0433405",
+    "data": [
+      {
+        "text": "skype is not opening",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3a320dc3-4dd0-4656-ae99-e3d716dd9305",
+    "data": [
+      {
+        "text": "Unable to load skype",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

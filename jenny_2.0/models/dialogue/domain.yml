@@ -1,0 +1,54 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_askname
+- utter_askID
+- utter_skype
+- utter_login_issues
+- utter_goodbye
+actions:
+- utter_greet
+- utter_askname
+- utter_askID
+- utter_skype
+- utter_login_issues
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities:
+- name
+- ID
+- account
+intents:
+- greet
+- goodbye
+- user_name
+- user_ID
+- skype
+- skype_issues
+- login_issues
+slots:
+  ID:
+    type: float
+  account:
+    type: categorical
+    values:
+    - windows
+    - enturst
+    - pgp
+  name:
+    type: text
+templates:
+  utter_askID:
+  - text: May i know your ID ?
+  utter_askname:
+  - text: ' May i know your name ?'
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hi, How may i help you
+  utter_login_issues:
+  - text: which account is it associated with?
+  utter_skype:
+  - text: Did you try restarting the process
+topics: []

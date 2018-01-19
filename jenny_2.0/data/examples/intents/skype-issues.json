@@ -1,0 +1,58 @@
+{
+  "id": "59438467-038f-493e-863f-884f14181c11",
+  "name": "skype-issues",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f4dbdd4d-a1be-4244-a8f9-1f7c5b161d0c",
+          "required": true,
+          "dataType": "@Name",
+          "name": "NAME",
+          "value": "$NAME",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please provide me with your name"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "cc208507-121f-4fdd-a6d3-d9783d1b7517",
+          "required": true,
+          "dataType": "@ID",
+          "name": "ID",
+          "value": "$ID",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please state your employee ID"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Open task manager, go to processes and end the process Skype.  Next Restart skype."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509432154,
+  "fallbackIntent": false,
+  "events": []
+}

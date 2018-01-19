@@ -1,0 +1,6 @@
+curl -XPOST https://api.twilio.com/2010-04-01/Accounts/AC47591910f555d88fb94243901fc9d3b0/Messages.json \
+    -d "Body=Let%27s%20grab%20lunch%20at%20Milliways%20tomorrow!" \
+    -d "To=+13397075117" \
+    -d "From=+12566395742" \
+    -d "MediaUrl=http://www.example.com/cheeseburger.png" \
+    -u 'AC47591910f555d88fb94243901fc9d3b0:c9d3b24654e4e749a9ca9003fe75adae'

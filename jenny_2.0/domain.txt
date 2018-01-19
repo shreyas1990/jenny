@@ -1,0 +1,53 @@
+intents:
+  - greet
+  - goodbye
+  - details
+  - skype
+  - login_issues
+
+entities:
+ - name
+ - ID
+ - account
+
+slots:
+ name:
+  type: text
+ 
+ ID:
+  type: float
+ 
+ account:
+  type: categorical
+  values:
+  - windows
+  - enturst
+  - PGP
+ 
+templates:
+ utter_greet:
+ - text: "Hi, How may i help you"
+
+ utter_details:
+ - text: " May i know your details ?"
+ 
+ utter_skype:
+ - text: "Did you try restarting the process"
+
+ utter_login_issues:
+ - text: "which account is it associated with?"
+
+ utter_goodbye:
+ - text: "Bye"
+
+action_factory: remote
+
+actions:
+ - utter_greet
+ - utter_details
+ - utter_skype
+ - utter_login_issues
+ - utter_goodbye
+
+
+

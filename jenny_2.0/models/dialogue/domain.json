@@ -1,0 +1,27 @@
+{
+  "features": [
+    "intent_greet", 
+    "intent_goodbye", 
+    "intent_user_name", 
+    "intent_user_ID", 
+    "intent_skype", 
+    "intent_skype_issues", 
+    "intent_login_issues", 
+    "entity_name", 
+    "entity_ID", 
+    "entity_account", 
+    "slot_ID_0", 
+    "slot_account_0", 
+    "slot_account_1", 
+    "slot_account_2", 
+    "slot_name_0", 
+    "prev_action_listen", 
+    "prev_action_restart", 
+    "prev_utter_greet", 
+    "prev_utter_askname", 
+    "prev_utter_askID", 
+    "prev_utter_skype", 
+    "prev_utter_login_issues", 
+    "prev_utter_goodbye"
+  ]
+}

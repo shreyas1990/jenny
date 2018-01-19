@@ -1,0 +1,60 @@
+{
+  "id": "7f410efc-87cb-4807-bff2-682eeb7ea515",
+  "name": "WiFi issues",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get-details",
+      "affectedContexts": [
+        {
+          "name": "details",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a2ee87fc-0079-4aec-82c0-a03bc5c88dee",
+          "required": true,
+          "dataType": "@Name",
+          "name": "Name",
+          "value": "#details.Name",
+          "isList": false
+        },
+        {
+          "id": "f0218f70-696f-4fb4-82ae-47042db9219f",
+          "required": true,
+          "dataType": "@ID",
+          "name": "ID",
+          "value": "#details.ID",
+          "isList": false
+        },
+        {
+          "id": "2476abd9-a23a-4bad-9a8e-d11aef12bd37",
+          "required": true,
+          "dataType": "@model",
+          "name": "Model",
+          "value": "#details.model",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "thank you for providing me with the details, I will raise a ticket. One of our members will get back to you soon."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510563259216,
+  "fallbackIntent": false,
+  "events": []
+}

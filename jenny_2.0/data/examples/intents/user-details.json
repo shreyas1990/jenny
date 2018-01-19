@@ -1,0 +1,106 @@
+{
+  "id": "746752ec-8813-40a2-a17d-e09905afd332",
+  "name": "user-details",
+  "auto": true,
+  "contexts": [
+    "details"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get-details",
+      "affectedContexts": [
+        {
+          "name": "details",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "17b6a500-039d-461b-8c79-0ef772f15f87",
+          "required": true,
+          "dataType": "@Name",
+          "name": "Name",
+          "value": "$Name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what is your name?"
+            },
+            {
+              "lang": "en",
+              "value": "can you please tell me your name?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "68d99e49-b72a-462a-8577-a5967b66655f",
+          "required": true,
+          "dataType": "@ID",
+          "name": "ID",
+          "value": "$ID",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "may i know your employee ID"
+            },
+            {
+              "lang": "en",
+              "value": "please tell me your employee ID"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "5f4d1a39-4a65-4c1b-ace9-fa7d8cbe1667",
+          "required": true,
+          "dataType": "@model",
+          "name": "model",
+          "value": "$model",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please provide the model number of your laptop/desktop"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "8442b4b0-3139-46c3-8e0a-b64c4b785e07",
+          "required": true,
+          "dataType": "@account",
+          "name": "account",
+          "value": "$account",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "which account is this?"
+            },
+            {
+              "lang": "en",
+              "value": "what account is the issue associated with?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "thank you"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510133648910,
+  "fallbackIntent": false,
+  "events": []
+}

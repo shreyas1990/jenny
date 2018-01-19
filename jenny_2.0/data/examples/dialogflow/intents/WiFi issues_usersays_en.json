@@ -1,0 +1,62 @@
+[
+  {
+    "id": "d9f09b9e-e491-4453-9ed5-efc9c2264aa2",
+    "data": [
+      {
+        "text": "wifi adapter is not working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1510563259
+  },
+  {
+    "id": "2e52f944-d046-4251-a139-86e2f778b866",
+    "data": [
+      {
+        "text": "wifi adapter is down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1510563259
+  },
+  {
+    "id": "674e365f-5f2a-47f6-bab3-426e77387aef",
+    "data": [
+      {
+        "text": "my net is down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1510563259
+  },
+  {
+    "id": "3d1a1738-066c-414f-89d7-eba32f4c55aa",
+    "data": [
+      {
+        "text": "i have no internet access",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1510563259
+  },
+  {
+    "id": "53c315f1-a2d5-483a-90b5-2abc476a0da1",
+    "data": [
+      {
+        "text": "my wifi is not working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1510563259
+  }
+]

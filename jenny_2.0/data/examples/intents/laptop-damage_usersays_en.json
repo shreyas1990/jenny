@@ -1,0 +1,38 @@
+[
+  {
+    "id": "7fde5f6b-3b71-46aa-92aa-86bf9b0edd31",
+    "data": [
+      {
+        "text": "my laptop is damaged",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 1509430829
+  },
+  {
+    "id": "e3bad044-f6cd-4ca3-ae3c-9948bc21928b",
+    "data": [
+      {
+        "text": "there is a scratch on my laptop screen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "897187e5-49f3-484d-9b88-4337a766af29",
+    "data": [
+      {
+        "text": "laptop screen is damaged",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

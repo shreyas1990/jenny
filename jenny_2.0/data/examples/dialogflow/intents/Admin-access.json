@@ -1,0 +1,59 @@
+{
+  "id": "5e0133e1-156d-4ce8-96cd-6e30dd558986",
+  "name": "Admin-access",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get-details",
+      "affectedContexts": [
+        {
+          "name": "details",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "71543168-5022-4eff-abc5-c9014aeee850",
+          "required": true,
+          "dataType": "@Name",
+          "name": "Name",
+          "value": "#details.Name",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "id": "9c024744-44ee-4887-83e3-96810a27ed1d",
+          "required": true,
+          "dataType": "@ID",
+          "name": "ID",
+          "value": "#details.ID"
+        },
+        {
+          "id": "b491ec8b-5304-4acd-84ac-b761b3346f76",
+          "required": true,
+          "dataType": "@model",
+          "name": "model",
+          "value": "#details.model"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "thank you for the information, let me raise a ticket to complete your request"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510133785254,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,9 @@
+DEBUG:root:Attempting to connect to Google
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.google.com
+DEBUG:urllib3.connectionpool:https://www.google.com:443 "GET / HTTP/1.1" 302 272
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.google.co.in
+DEBUG:urllib3.connectionpool:https://www.google.co.in:443 "GET /?gfe_rd=cr&dcr=0&ei=P4BUWvuwB-eA8Qft-q-oAQ HTTP/1.1" 200 None
+DEBUG:root:Attempting to connect to Twilio API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com
+DEBUG:urllib3.connectionpool:https://api.twilio.com:443 "GET / HTTP/1.1" 200 418
+DEBUG:root:Done....

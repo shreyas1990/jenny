@@ -1,0 +1,74 @@
+{
+  "id": "fdb14f10-3fd1-4557-84a0-a883badd6a53",
+  "name": "laptop-damage",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get.user-details",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "963f304e-594e-4297-8c34-ac0d8880f2d5",
+          "required": true,
+          "dataType": "@Name",
+          "name": "Name",
+          "value": "$Name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "May i know your name?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "c3510802-6af9-4236-8349-3af5e41447d0",
+          "required": true,
+          "dataType": "@ID",
+          "name": "ID",
+          "value": "$ID",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please specify your employee ID"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "6a9c6487-127c-48bc-81d2-4dcab165c617",
+          "required": true,
+          "dataType": "@model",
+          "name": "Model",
+          "value": "$Model",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "May i please know the model number?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you, I will redirect to an agent to raise an incident"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509437760,
+  "fallbackIntent": false,
+  "events": []
+}

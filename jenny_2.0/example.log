@@ -1,0 +1,8 @@
+DEBUG:root:Script start
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/AC47591910f555d88fb94243901fc9d3b0/Messages.json
+INFO:twilio.http_client:PAYLOAD: {'Body': 'Test', 'To': '+13397075117', 'From': '+12566395742'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com
+DEBUG:root:Script start
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/AC47591910f555d88fb94243901fc9d3b0/Messages.json
+INFO:twilio.http_client:PAYLOAD: {'Body': 'Test', 'To': '+13397075117', 'From': '+12566395742'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.twilio.com

@@ -1,0 +1,62 @@
+{
+  "id": "46ffb4ec-a497-4c18-a9ea-a1007b069648",
+  "name": "lost-laptop",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user-details",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ec3d5899-7b5b-4016-b769-b84fad8b2b15",
+          "required": true,
+          "dataType": "@Name",
+          "name": "Name",
+          "value": "$Name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what is your name?"
+            },
+            {
+              "lang": "en",
+              "value": "please tell me your name"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "150529f7-3a44-46cd-a473-41839d2098bb",
+          "required": true,
+          "dataType": "@ID",
+          "name": "ID",
+          "value": "$ID",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "may i please know your ID"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "thank you  ,  let me redirect you to an agent who can help you"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509429169,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,177 @@
+{
+  "rasa_nlu_data": {
+    
+    "common_examples": [
+      {
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there",
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "my skype does not seem to be working",
+         "intent": "skype_issues",
+         "entities": []
+      },
+      {
+        "text": "skype is down",
+        "intent": "skype_issues",
+        "entities": []
+      },
+      {
+        "text": "my name is abcd",
+        "intent": "user_name",
+        "entities": [
+         {
+          "start": 11,
+          "end": 15,
+          "value": "abcd",
+          "entity": "name"
+         }
+
+        ]
+      },
+      {
+        "text": "I am shreyas",
+        "intent": "user_name",
+        "entities": [
+         {
+          "start": 5,
+          "end": 12,
+          "value": "shreyas",
+          "entity": "name"
+         }
+         ]
+      },
+      {
+        "text": "This is Steve",
+        "intent": "user_name",
+        "entities": [
+         {
+          "start": 8,
+          "end": 13,
+          "value": "Steve",
+          "entity": "name"
+         }
+         ]
+      },
+      {
+        "text": "Yes, Eric here",
+        "intent": "user_name",
+        "entities": [
+         {
+          "start": 5,
+          "end": 9,
+          "value": "Eric",
+          "entity": "name"
+         }
+         ]
+      },
+      {
+        "text": "my employee ID is 234",
+        "intent": "user_ID",
+        "entities": [ 
+         {
+           "start": 18,
+           "end": 21,
+           "value": "234",
+           "entity": "ID"
+         }
+       ]
+      },
+      {
+        "text": "It is 231234",
+        "intent": "user_ID",
+        "entities": [ 
+         {
+           "start": 6,
+           "end": 12,
+           "value": "231234",
+           "entity": "ID"
+         }
+       ]
+      },
+      {
+        "text": "Yes my ID is 975",
+        "intent": "user_ID",
+        "entities": [ 
+         {
+           "start": 13,
+           "end": 16,
+           "value": "975",
+           "entity": "ID"
+         }
+       ]
+      },
+      {
+        "text": "bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "good bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "stop", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "end", 
+        "intent": "goodbye", 
+        "entities": []
+      },
+      {
+        "text": "farewell",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "have a good one",
+        "intent": "goodbye",
+        "entities": []
+      }
+    ]
+  }
+}
